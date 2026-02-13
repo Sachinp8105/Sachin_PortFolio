@@ -71,18 +71,19 @@ function ContactForm() {
 
           <div className="flex flex-col gap-2">
             <label className="text-base">Your Email: </label>
-            <input
-              className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
-              type="email"
-              maxLength="100"
-              required={true}
-              value={userInput.email}
-              onChange={(e) => setUserInput({ ...userInput, email: e.target.value })}
-              onBlur={() => {
-                checkRequired();
-                setError({ ...error, email: !isValidEmail(e.target.value) });
-              }}
-            />
+           <input
+                  className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
+                  type="email"
+                  maxLength="100"
+                  required={true}
+                  value={userInput.email}
+                  onChange={(e) => setUserInput({ ...userInput, email: e.target.value })}
+                  // Fix: Pass 'e' into the arrow function here
+                  onBlur={(e) => {
+                    checkRequired();
+                    setError((prev) => ({ ...prev, email: !isValidEmail(e.target.value) }));
+                  }}
+                />
             {error.email && <p className="text-sm text-red-400">Please provide a valid email!</p>}
           </div>
 
