@@ -37,7 +37,7 @@ A professional portfolio template built with **Next.js 16**, **React 19**, and *
 </p>
 
 <p align="center">
-  <a href="https://abusaid.netlify.app/" target="_blank">
+  <a href="https://sachin-port-folio.vercel.app/" target="_blank">
     <strong>🚀 View Live Demo</strong>
   </a>
 </p>
@@ -251,7 +251,7 @@ Create a `.env` file in the root directory with the following variables:
 NEXT_PUBLIC_GTM=GTM-XXXXXXX
 
 # Your deployed app URL
-NEXT_PUBLIC_APP_URL=https://your-domain.com
+NEXT_PUBLIC_APP_URL=https://sachin-port-folio.vercel.app/
 
 # Telegram Bot Configuration (for contact form notifications)
 TELEGRAM_BOT_TOKEN=your_bot_token_here
@@ -346,13 +346,13 @@ profile: "/your-image-name.png"; // or .jpg, .webp
 
 ---
 
-### 🌐 Deploy to Netlify
+### 🌐 Deploy to Vercel
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Sachinp8105/Sachin_PortFolio)
+[![Deploy to Vercel](https://vercel.com)](https://app.netlify.com/start/deploy?repository=https://github.com/Sachinp8105/Sachin_PortFolio)
 
 **Manual Deployment:**
 
-1. Sign up at [Netlify](https://www.netlify.com/)
+1. Sign up at [Vercel](https://vercel.com)
 2. Import your GitHub repository
 3. Build command: `npm run build`
 4. Publish directory: `.next`
@@ -504,7 +504,6 @@ PORT=3001 npm run dev
 </details>
 
 <details>
-<summary><strong>❌ Module not found or dependency errors</strong></summary>
 
 **Solution:**
 
@@ -523,7 +522,6 @@ pnpm install
 </details>
 
 <details>
-<summary><strong>❌ Environment variables not working</strong></summary>
 
 **Solution:**
 
@@ -535,7 +533,6 @@ pnpm install
 </details>
 
 <details>
-<summary><strong>❌ Images not loading</strong></summary>
 
 **Solution:**
 
@@ -547,7 +544,6 @@ pnpm install
 </details>
 
 <details>
-<summary><strong>❌ Contact form not sending emails</strong></summary>
 
 **Solution:**
 
@@ -558,22 +554,6 @@ pnpm install
 - Check browser console for error messages
 
 </details>
-
----
-
-## Contributing :handshake:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit changes: `git commit -m 'Add some AmazingFeature'`
-4. Push to branch: `git push origin feature/AmazingFeature`
-5. Open a Pull Request
-
----
-
-## License :page_with_curl:
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 
 ---
