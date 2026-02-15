@@ -11,7 +11,7 @@ export const projectsData = [
     {
         id: 2,
         name: 'Drishticane Mobile Application',
-        description: 'I designed and developed the Drishticane Mobile Application to enable company field users to efficiently collect and manage farmer-related data in real time. The application was built using Java with XML layouts and Material Design UI components, ensuring a clean, user-friendly, and responsive interface.The app allows field executives to capture detailed farmer information and record geolocation data directly from their mobile devices. Integration with Google Maps API enables users to mark and measure farmers’ land areas accurately in acres using map-based polygon drawing.  The backend is powered by a RESTful API that facilitates seamless data synchronization between the mobile app and the central database.',
+        description: 'Architected a field-data collection tool for agricultural management, improving data accuracy for field executives.Integrated Google Maps API with polygon-drawing logic to measure and record farmer land areas in acres.Developed a RESTful API backend to facilitate seamless, real-time synchronization between mobile devices and the central Oracle database.Utilized SQLite for offline data persistence and Material Design for an intuitive user experience.',
         tools: ['Java', 'XML Layout', "Google Maps", "MSG91 OTP Service", "Restful API", "SQLite", "Oracle SQL", "Retrofit"],
         role: 'Backend Developer',
         code: '',
@@ -19,9 +19,9 @@ export const projectsData = [
     },
     {
         id: 3,
-        name: 'Invoice Generation for Users',
-        description: 'I have developed an invoice generation system using . We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'Invoice Generation system',
+        description: 'I have developed an invoice generation system. i have utilized .net mvc, Oracle SQL, Razor view , javascript and html to create a dynamic invoice generation system. This system allows users to generate invoices based on growers transactions. The system fetches relevant data from the database, processes it, and generates invoices.This system streamlines the invoicing process, reduces manual effort, and ensures accurate and timely invoice generation for the users.',
+        tools: ['.net MVC', 'Oracle SQL', 'Razor View', 'JavaScript', 'HTML'],
         code: '',
         role: 'Full Stack Developer',
         demo: '',
